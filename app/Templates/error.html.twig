@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Error - Something Went Wrong{% endblock %}
+
+{% block header %}
+    <h1 class="text-2xl font-bold">Error Page</h1>
+{% endblock %}
+
+{% block content %}
+    <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative" role="alert">
+        <strong class="font-bold">Error:</strong>
+        <span class="block sm:inline">{{ message }}</span>
+    </div>
+{% endblock %}

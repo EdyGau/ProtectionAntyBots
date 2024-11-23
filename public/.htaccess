@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /ProtectionAntyBots/public/
+RewriteRule ^submit$ index.php [L]
+RewriteRule ^$ index.php [L]
